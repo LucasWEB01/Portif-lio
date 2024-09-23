@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* "reset de página" em uma página web significa recarregá-la para seu estado original, que pode */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+html{
+    height:100vh;
+}
+
+/* image altera a cor da pagina
+position posição de fundo
+no - repeat: mpede que a imagem de fundo se repita na página. Assim, a imagem é exibida uma única vez,*/
+body {
+  background-image: linear-gradient(to bottom, #00563f, #aae0cd,#f3f5f4);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header{
+    background-color:aliceblue;
+    margin-top: 3px;
+    border-radius:7px;
+    width: 90vw;
+    margin:auto;
+   text-align:center;   
+}
+
+header>h1{
+    text-align: center;
+    color:black;
+  
+
+
+}
+
+nav{
+    background-color:#c7feea;
+    margin-top: 3px;
+    border-radius:0px 0px 9px 9px;
+    width:90vw ;
+    margin: auto;
+    text-align:center 
+}
+
+main{
+  background-color: aqua;
+  width: 90vw;
+  margin: auto;
+  border-radius: 0px 0px 9px 9px;
+}
+
