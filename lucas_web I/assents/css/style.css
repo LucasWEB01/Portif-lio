@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document 
+ mais um comando de comentario de código, somente para CSS.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(40, 38, 110); */
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background: linear-gradient(to right, #81c7d4, #9b4dff);
+}
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #a4d88c;
+  color: #fff;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+h2{
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: #f4a8d4;
+   border-radius: 10px;
+   box-sizing: border-box;
+   border: 20px;
+}
